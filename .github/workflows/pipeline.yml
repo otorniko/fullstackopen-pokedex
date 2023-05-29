@@ -14,6 +14,6 @@ jobs:
         with:
           node-version: '16.14.0'
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
       - name: Check style
-        run: pnpm run eslint
+        run: npm run eslint
