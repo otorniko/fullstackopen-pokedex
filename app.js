@@ -15,6 +15,10 @@ app.get('/health', (req, res) => {
   res.send('ok')
 })
 
+app.get('/hidenseek', (req, res) => {
+  res.send('found')
+})
+
 
 app.listen(PORT, () => {
   //console.log('server started on port 5000')
